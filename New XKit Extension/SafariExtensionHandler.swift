@@ -15,6 +15,13 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         page.getPropertiesWithCompletionHandler { properties in
             NSLog("The extension received a message (\(messageName)) from a script injected into (\(String(describing: properties?.url))) with userInfo (\(userInfo ?? [:]))")
         }
+
+        switch (messageName) {
+        case "framework_version":
+            page.dispatchMessageToScript(withName: "framework_version", userInfo: ["version": "7.9.0", "storage": [{}]])
+        default:
+            NSLog("The extension received a message (\(messageName)) from a script with userInfo (\(userInfo ?? [:]))")
+        }
     }
     
     override func toolbarItemClicked(in window: SFSafariWindow) {

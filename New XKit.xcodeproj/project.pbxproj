@@ -21,6 +21,19 @@
 		CB0EABAF226E9E6300B74498 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0EABAD226E9E6300B74498 /* SafariExtensionViewController.xib */; };
 		CB0EABB2226E9E6300B74498 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = CB0EABB1226E9E6300B74498 /* script.js */; };
 		CB0EABB4226E9E6300B74498 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CB0EABB3226E9E6300B74498 /* ToolbarItemIcon.pdf */; };
+		CB3D7E6C233677090025ABB6 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E5F233677070025ABB6 /* jquery.js */; };
+		CB3D7E6D233677090025ABB6 /* xkit.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E60233677080025ABB6 /* xkit.js */; };
+		CB3D7E6E233677090025ABB6 /* lodash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E61233677080025ABB6 /* lodash.min.js */; };
+		CB3D7E6F233677090025ABB6 /* global.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E62233677080025ABB6 /* global.js */; };
+		CB3D7E70233677090025ABB6 /* global.html in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E63233677080025ABB6 /* global.html */; };
+		CB3D7E71233677090025ABB6 /* moment.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E64233677080025ABB6 /* moment.js */; };
+		CB3D7E73233677090025ABB6 /* nano.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E66233677080025ABB6 /* nano.js */; };
+		CB3D7E74233677090025ABB6 /* editor.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E67233677090025ABB6 /* editor.js */; };
+		CB3D7E75233677090025ABB6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E68233677090025ABB6 /* icon.png */; };
+		CB3D7E76233677090025ABB6 /* xkit.css in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E69233677090025ABB6 /* xkit.css */; };
+		CB3D7E77233677090025ABB6 /* tiptip.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E6A233677090025ABB6 /* tiptip.js */; };
+		CB3D7E78233677090025ABB6 /* origbridge.js in Resources */ = {isa = PBXBuildFile; fileRef = CB3D7E6B233677090025ABB6 /* origbridge.js */; };
+		CB64FA5F2336E7C700B086D2 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA5E2336E7C700B086D2 /* bridge.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +97,19 @@
 		CB0EABB1226E9E6300B74498 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		CB0EABB3226E9E6300B74498 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		CB0EABB5226E9E6300B74498 /* New_XKit_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = New_XKit_Extension.entitlements; sourceTree = "<group>"; };
+		CB3D7E5F233677070025ABB6 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		CB3D7E60233677080025ABB6 /* xkit.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xkit.js; sourceTree = "<group>"; };
+		CB3D7E61233677080025ABB6 /* lodash.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lodash.min.js; sourceTree = "<group>"; };
+		CB3D7E62233677080025ABB6 /* global.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = global.js; sourceTree = "<group>"; };
+		CB3D7E63233677080025ABB6 /* global.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = global.html; sourceTree = "<group>"; };
+		CB3D7E64233677080025ABB6 /* moment.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = moment.js; sourceTree = "<group>"; };
+		CB3D7E66233677080025ABB6 /* nano.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nano.js; sourceTree = "<group>"; };
+		CB3D7E67233677090025ABB6 /* editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = editor.js; sourceTree = "<group>"; };
+		CB3D7E68233677090025ABB6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CB3D7E69233677090025ABB6 /* xkit.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xkit.css; sourceTree = "<group>"; };
+		CB3D7E6A233677090025ABB6 /* tiptip.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tiptip.js; sourceTree = "<group>"; };
+		CB3D7E6B233677090025ABB6 /* origbridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = origbridge.js; sourceTree = "<group>"; };
+		CB64FA5E2336E7C700B086D2 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +213,20 @@
 				CB0EABA9226E9E6300B74498 /* SafariExtensionHandler.swift */,
 				CB0EABAB226E9E6300B74498 /* SafariExtensionViewController.swift */,
 				CB0EABAD226E9E6300B74498 /* SafariExtensionViewController.xib */,
+				CB3D7E68233677090025ABB6 /* icon.png */,
 				CB0EABB0226E9E6300B74498 /* Info.plist */,
+				CB3D7E6B233677090025ABB6 /* origbridge.js */,
+				CB64FA5E2336E7C700B086D2 /* bridge.js */,
+				CB3D7E67233677090025ABB6 /* editor.js */,
+				CB3D7E63233677080025ABB6 /* global.html */,
+				CB3D7E62233677080025ABB6 /* global.js */,
+				CB3D7E5F233677070025ABB6 /* jquery.js */,
+				CB3D7E61233677080025ABB6 /* lodash.min.js */,
+				CB3D7E64233677080025ABB6 /* moment.js */,
+				CB3D7E66233677080025ABB6 /* nano.js */,
+				CB3D7E6A233677090025ABB6 /* tiptip.js */,
+				CB3D7E69233677090025ABB6 /* xkit.css */,
+				CB3D7E60233677080025ABB6 /* xkit.js */,
 				CB0EABB1226E9E6300B74498 /* script.js */,
 				CB0EABB3226E9E6300B74498 /* ToolbarItemIcon.pdf */,
 				CB0EABB5226E9E6300B74498 /* New_XKit_Extension.entitlements */,
@@ -346,9 +385,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3D7E75233677090025ABB6 /* icon.png in Resources */,
+				CB64FA5F2336E7C700B086D2 /* bridge.js in Resources */,
+				CB3D7E78233677090025ABB6 /* origbridge.js in Resources */,
+				CB3D7E6C233677090025ABB6 /* jquery.js in Resources */,
 				CB0EABB4226E9E6300B74498 /* ToolbarItemIcon.pdf in Resources */,
+				CB3D7E76233677090025ABB6 /* xkit.css in Resources */,
+				CB3D7E71233677090025ABB6 /* moment.js in Resources */,
+				CB3D7E77233677090025ABB6 /* tiptip.js in Resources */,
+				CB3D7E6D233677090025ABB6 /* xkit.js in Resources */,
+				CB3D7E6F233677090025ABB6 /* global.js in Resources */,
+				CB3D7E6E233677090025ABB6 /* lodash.min.js in Resources */,
+				CB3D7E73233677090025ABB6 /* nano.js in Resources */,
 				CB0EABAF226E9E6300B74498 /* SafariExtensionViewController.xib in Resources */,
 				CB0EABB2226E9E6300B74498 /* script.js in Resources */,
+				CB3D7E70233677090025ABB6 /* global.html in Resources */,
+				CB3D7E74233677090025ABB6 /* editor.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +600,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "New XKit Extension/New_XKit_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKit-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -566,7 +621,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "New XKit Extension/New_XKit_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -575,6 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKit-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -586,8 +644,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "New XKit/New_XKit.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -595,6 +655,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -605,8 +666,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "New XKit/New_XKit.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,6 +677,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -623,8 +687,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -633,6 +699,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New XKit.app/Contents/MacOS/New XKit";
 			};
@@ -643,8 +710,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -653,6 +722,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New XKit.app/Contents/MacOS/New XKit";
 			};
@@ -662,8 +732,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,6 +744,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKitUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "New XKit";
 			};
@@ -681,8 +754,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JTRG49NC7Z;
 				INFOPLIST_FILE = "New XKitUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -691,6 +766,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "new-xkit.New-XKitUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = "New XKit";
 			};

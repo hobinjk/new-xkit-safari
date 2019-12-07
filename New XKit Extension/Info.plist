@@ -32,7 +32,42 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>script.js</string>
+				<string>jquery.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>moment.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>tiptip.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>nano.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>lodash.min.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>bridge.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>xkit.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
+				<string>editor.js</string>
+			</dict>
+		</array>
+		<key>SFSafariStyleSheet</key>
+		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>xkit.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -50,8 +85,12 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>*.webkit.org</string>
+				<string>*.tumblr.com</string>
+				<string>*.txmblr.com</string>
+				<string>new-xkit.github.io</string>
 			</array>
+			<key>Include Secure Pages</key>
+			<true/>
 			<key>Level</key>
 			<string>Some</string>
 		</dict>
