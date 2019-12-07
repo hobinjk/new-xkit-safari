@@ -12,6 +12,7 @@ var bridge_error = false;
 var bridge_error_object;
 var xkit_storage = {};
 var bridge_ver = "2.2.1";
+var XK_STORAGE_PREFIX = 'xkit-';
 
 var storage = {
     get: function(callback) {
@@ -53,7 +54,7 @@ try {
 	var storage_max = -1;
 	init_bridge();
 } catch (e) {
-	console.log("[XKIT] Caught bridge error: " + e.message);
+	console.log("[XKIT] Caught bridge error: ", e);
 	bridge_error_object = e;
 	bridge_error = true;
 	try {
@@ -104,16 +105,7 @@ function init_bridge() {
 				});
 				return;
 			}
-			if (typeof(chrome) === 'undefined') {
-				if (!items.isProperlyMigrated) {
-					XKit.window.show("Storage migration in progress", "XKit is still busy migrating your preferences from the old storage system to the new one. Please check back in a couple seconds by refreshing the page.", "warning",  "<div class=\"xkit-button default\" id=\"xkit-bridge-refresh\">Refresh</div>");
-					$("#xkit-bridge-refresh").click(function() {
-						window.location = window.location;
-					});
-					return;
-				}
 
-			}
 			for (var key in items) {
 				xkit_storage[key] = items[key];
 			}
